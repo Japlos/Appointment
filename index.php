@@ -137,6 +137,17 @@
           <input type="text" id="student" name="student" required>
         </div>
       </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="appointment-date">Preferred Appointment Date:</label>
+          <input type="date" id="appointment-date" name="appointment-date" required>
+        </div>
+        <div class="form-group">
+          <label for="appointment-time">Preferred Appointment Time:</label>
+          <input type="time" id="appointment-time" name="appointment-time" required>
+        </div>
+      </div>
     `;
     // Show the file input for COR
     fileInputDiv.style.display = 'block';
@@ -166,6 +177,17 @@
         <div class="form-group">
           <label for="student">Student Number:</label>
           <input type="text" id="student" name="student" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="appointment-date">Preferred Appointment Date:</label>
+          <input type="date" id="appointment-date" name="appointment-date" required>
+        </div>
+        <div class="form-group">
+          <label for="appointment-time">Preferred Appointment Time:</label>
+          <input type="time" id="appointment-time" name="appointment-time" required>
         </div>
       </div>
     `;
